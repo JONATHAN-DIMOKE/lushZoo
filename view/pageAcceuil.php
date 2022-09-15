@@ -16,14 +16,14 @@
         }
     </script>
     <!-- Custom Theme files -->
-    <link href="../css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
     <!-- color switch -->
-    <link href="../css/blast.min.css" rel="stylesheet" />
+    <link href="css/blast.min.css" rel="stylesheet" />
     <!-- portfolio -->
-    <link href="../css/portfolio.css" type="text/css" rel="stylesheet" media="all">
-    <link href="../css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/portfolio.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
     <!-- font-awesome icons -->
-    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <!-- online-fonts -->
     <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
@@ -56,7 +56,7 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-expand-lg navbar-light navbar-fixed-top">
                 <h1>
-                    <a class="navbar-brand" href="index.php" data-blast="color">
+                    <a class="navbar-brand" href="pageAcceuil.php" data-blast="color">
                         L'shi zoo
                     </a>
                 </h1>
@@ -67,7 +67,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-lg-auto text-center">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.php" data-blast="color">Home
+                            <a class="nav-link" href="pageAcceuil.php" data-blast="color">Home
                                 <span class="sr-only">(current)</span>
                             </a>
                         </li>
@@ -469,7 +469,7 @@
             <div class="row py-4 mt-lg-5  team-grid">
                 <div class="col-lg-4 col-sm-6">
                     <div class="box13">
-                        <img src="../images/t1.jpg" class="img-fluid img-thumbnail" alt="" />
+                        <img src="images/t1.jpg" class="img-fluid img-thumbnail" alt="" />
                         <div class="box-content">
                             <h3 class="title" data-blast="color">Williamson</h3>
                             <span class="post">role in detail</span>
@@ -482,7 +482,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6 mt-sm-0 mt-4">
                     <div class="box13">
-                        <img src="../images/t2.jpg" class="img-fluid img-thumbnail" alt="" />
+                        <img src="images/t2.jpg" class="img-fluid img-thumbnail" alt="" />
                         <div class="box-content">
                             <h3 class="title" data-blast="color">Kristiana</h3>
                             <span class="post">role in detail</span>
@@ -495,7 +495,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6 mt-lg-0 mt-4">
                     <div class="box13">
-                        <img src="../images/t3.jpg" class="img-fluid img-thumbnail" alt="" />
+                        <img src="images/t3.jpg" class="img-fluid img-thumbnail" alt="" />
                         <div class="box-content">
                             <h3 class="title" data-blast="color">Thomson</h3>
                             <span class="post">role in detail</span>
@@ -508,7 +508,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6  mt-4">
                     <div class="box13">
-                        <img src="../images/t4.jpg" class="img-fluid img-thumbnail" alt="" />
+                        <img src="images/t4.jpg" class="img-fluid img-thumbnail" alt="" />
                         <div class="box-content">
                             <h3 class="title" data-blast="color">dolor sit</h3>
                             <span class="post">role in detail</span>
@@ -521,7 +521,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6 mt-4">
                     <div class="box13">
-                        <img src="../images/t5.jpg" class="img-fluid img-thumbnail" alt="" />
+                        <img src="images/t5.jpg" class="img-fluid img-thumbnail" alt="" />
                         <div class="box-content">
                             <h3 class="title" data-blast="color">ipsum dolor</h3>
                             <span class="post">role in detail</span>
@@ -534,7 +534,7 @@
                 </div>
                 <div class="col-lg-4 col-sm-6 mt-4">
                     <div class="box13">
-                        <img src="../images/t6.jpg" class="img-fluid img-thumbnail" alt="" />
+                        <img src="images/t6.jpg" class="img-fluid img-thumbnail" alt="" />
                         <div class="box-content">
                             <h3 class="title" data-blast="color">Lorem ipsum </h3>
                             <span class="post">role in detail</span>
@@ -559,57 +559,57 @@
             <ul class="demo row py-lg-5 py-sm-4 pb-4">
                 <li class="col-lg-3 col-sm-6">
                     <div class="gallery-grid1">
-                        <img src="../images/g1.jpg" alt=" " class="img-fluid img-thumbnail" />
+                        <img src="images/g1.jpg" alt=" " class="img-fluid img-thumbnail" />
                     </div>
                 </li>
                 <li class="col-lg-3 col-sm-6">
                     <div class="gallery-grid1">
-                        <img src="../images/g4.jpg" alt=" " class="img-fluid img-thumbnail" />
+                        <img src="images/g4.jpg" alt=" " class="img-fluid img-thumbnail" />
                     </div>
                 </li>
                 <li class="col-lg-3 col-sm-6">
                     <div class="gallery-grid1">
-                        <img src="../images/g5.jpg" alt=" " class="img-fluid img-thumbnail" />
+                        <img src="images/g5.jpg" alt=" " class="img-fluid img-thumbnail" />
                     </div>
                 </li>
                 <li class="col-lg-3 col-sm-6">
                     <div class="gallery-grid1">
-                        <img src="../images/g3.jpg" alt=" " class="img-fluid img-thumbnail" />
+                        <img src="images/g3.jpg" alt=" " class="img-fluid img-thumbnail" />
                     </div>
                 </li>
                 <li class="col-lg-4 col-sm-6">
                     <div class="gallery-grid1">
-                        <img src="../images/g2.jpg" alt=" " class="img-fluid img-thumbnail" />
+                        <img src="images/g2.jpg" alt=" " class="img-fluid img-thumbnail" />
                     </div>
                 </li>
                 <li class="col-lg-4 col-sm-6">
                     <div class="gallery-grid1">
-                        <img src="../images/g1.jpg" alt=" " class="img-fluid img-thumbnail" />
+                        <img src="images/g1.jpg" alt=" " class="img-fluid img-thumbnail" />
                     </div>
                 </li>
                 <li class="col-lg-4 col-sm-6 mx-auto">
                     <div class="gallery-grid1">
-                        <img src="../images/g4.jpg" alt=" " class="img-fluid img-thumbnail" />
+                        <img src="images/g4.jpg" alt=" " class="img-fluid img-thumbnail" />
                     </div>
                 </li>
                 <li class="col-lg-3 col-sm-6">
                     <div class="gallery-grid1">
-                        <img src="../images/g5.jpg" alt=" " class="img-fluid img-thumbnail" />
+                        <img src="images/g5.jpg" alt=" " class="img-fluid img-thumbnail" />
                     </div>
                 </li>
                 <li class="col-lg-3 col-sm-6">
                     <div class="gallery-grid1">
-                        <img src="../images/g4.jpg" alt=" " class="img-fluid img-thumbnail" />
+                        <img src="images/g4.jpg" alt=" " class="img-fluid img-thumbnail" />
                     </div>
                 </li>
                 <li class="col-lg-3 col-sm-6">
                     <div class="gallery-grid1">
-                        <img src="../images/g6.jpg" alt=" " class="img-fluid img-thumbnail" />
+                        <img src="images/g6.jpg" alt=" " class="img-fluid img-thumbnail" />
                     </div>
                 </li>
                 <li class="col-lg-3 col-sm-6">
                     <div class="gallery-grid1">
-                        <img src="../images/g5.jpg" alt=" " class="img-fluid img-thumbnail" />
+                        <img src="images/g5.jpg" alt=" " class="img-fluid img-thumbnail" />
                     </div>
                 </li>
             </ul>
@@ -753,7 +753,7 @@
                         <div class="card-header p-0 position-relative">
                             <a href="#exampleModal2" data-toggle="modal" aria-pressed="false" data-target="#exampleModal2"
                                 role="button">
-                                <img class="card-img-bottom" src="../images/g1.jpg" alt="Card image cap">
+                                <img class="card-img-bottom" src="images/g1.jpg" alt="Card image cap">
                                 <span class="fa fa-user post-icon bg-theme" aria-hidden="true" data-blast="bgColor"></span>
 
                             </a>
@@ -780,7 +780,7 @@
                         <div class="card-header p-0 position-relative">
                             <a href="#exampleModal3" data-toggle="modal" aria-pressed="false" data-target="#exampleModal3"
                                 role="button">
-                                <img class="card-img-bottom" src="../images/g2.jpg" alt="Card image cap">
+                                <img class="card-img-bottom" src="images/g2.jpg" alt="Card image cap">
                                 <span class="fa fa-user post-icon bg-theme" aria-hidden="true" data-blast="bgColor"></span>
                             </a>
                         </div>
@@ -806,7 +806,7 @@
                         <div class="card-header p-0  position-relative">
                             <a href="#exampleModal4" data-toggle="modal" aria-pressed="false" data-target="#exampleModal4"
                                 role="button">
-                                <img class="card-img-bottom" src="../images/g3.jpg" alt="Card image cap">
+                                <img class="card-img-bottom" src="images/g3.jpg" alt="Card image cap">
                                 <span class="fa fa-user post-icon bg-theme" aria-hidden="true" data-blast="bgColor"></span>
                             </a>
                         </div>
@@ -975,7 +975,7 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form action="../control/seConnecter.controller.php" method="post" class="p-sm-3">
+                    <form action="dispatcher.php?action=login" method="post" class="p-sm-3">
                         <div class="form-group">
                             <label for="recipient-name" class="col-form-label">Username</label>
                             <input type="text" class="form-control" placeholder="" name="username" id="recipient-name"
@@ -1072,7 +1072,7 @@
                     </button>
                 </div>
                 <div class="modal-body text-center">
-                    <img src="../images/g1.jpg" class="img-fluid" alt="" />
+                    <img src="images/g1.jpg" class="img-fluid" alt="" />
                     <p class="text-left my-4">
                         Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet
                         nisl
@@ -1096,7 +1096,7 @@
                     </button>
                 </div>
                 <div class="modal-body text-center">
-                    <img src="../images/g2.jpg" class="img-fluid" alt="" />
+                    <img src="images/g2.jpg" class="img-fluid" alt="" />
                     <p class="text-left my-4">
                         Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet
                         nisl
@@ -1120,7 +1120,7 @@
                     </button>
                 </div>
                 <div class="modal-body text-center">
-                    <img src="../images/g3.jpg" class="img-fluid" alt="" />
+                    <img src="images/g3.jpg" class="img-fluid" alt="" />
                     <p class="text-left my-4">
                         Quisque velit nisi, pretium ut lacinia in, elementum id enim. Curabitur non nulla sit amet
                         nisl
@@ -1133,7 +1133,7 @@
     </div>
     <!-- //blog modal3-->
     <!-- js -->
-    <script src="../js/jquery-2.2.3.min.js"></script>
+    <script src="js/jquery-2.2.3.min.js"></script>
     <!-- //js -->
     <!-- script for password match -->
     <script>
@@ -1154,7 +1154,7 @@
     </script>
     <!-- script for password match -->
     <!-- Banner  Responsiveslides -->
-    <script src="../js/responsiveslides.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
     <script>
         // You can also use"$(window).load(function() {"
         $(function () {
@@ -1177,10 +1177,10 @@
     </script>
     <!-- //Banner  Responsiveslides -->
     <!-- Scrolling Nav JavaScript -->
-    <script src="../js/scrolling-nav.js"></script>
-    <script src="../js/counter.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/counter.js"></script>
     <!-- portfolio -->
-    <script src="../js/jquery.picEyes.js"></script>
+    <script src="js/jquery.picEyes.js"></script>
     <script>
         $(function () {
             //picturesEyes($('.demo li'));
@@ -1189,8 +1189,8 @@
     </script>
     <!-- //portfolio -->
     <!-- start-smooth-scrolling -->
-    <script src="../js/move-top.js"></script>
-    <script src="../js/easing.js"></script>
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
     <script>
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
@@ -1220,14 +1220,14 @@
 
         });
     </script>
-    <script src="../js/SmoothScroll.min.js"></script>
+    <script src="js/SmoothScroll.min.js"></script>
     <!-- //smooth-scrolling-of-move-up -->
     <!-- color switch -->
-    <script src="../js/blast.min.js"></script>
+    <script src="js/blast.min.js"></script>
     <!-- Bootstrap core JavaScript
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../js/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
