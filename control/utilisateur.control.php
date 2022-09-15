@@ -18,7 +18,7 @@ function login($username, $pwd){
         $resultBD = UtilisateurDAO::seConnecter($username, $pwd);
         if ($resultBD['username']){
             if($resultBD['typeUtilisateur'] == "Admin"){
-                echo "Je suis admin";
+                require "view/backend/index.html";
             }elseif ($resultBD['typeUtilisateur'] == "Client"){
                 echo "Je suis client";
             }
