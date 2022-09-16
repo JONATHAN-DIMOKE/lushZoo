@@ -14,7 +14,20 @@ class UtilisateurDAO
             $req_prepare = ConnexionDAO::getConnection()->prepare($req);
             $req_prepare->execute(array($username, $pwd));
             $resultBD = $req_prepare->fetch(PDO::FETCH_ASSOC);
+            $req_prepare->closeCursor();
             return $resultBD;
+        }catch (Exception $ex){
+            echo "Message = ".$ex->getMessage();
+        }
+    }
+
+    public static function createFirstUser(){
+        try{
+            $req = "CALL proc_createFirstUser()";
+            $req_prepare = ConnexionDAO::getConnection()->prepare($req);
+            $req_prepare->execute();
+            $resultBD = $req_prepare->rowCount();
+            $req_prepare->closeCursor();
         }catch (Exception $ex){
             echo "Message = ".$ex->getMessage();
         }

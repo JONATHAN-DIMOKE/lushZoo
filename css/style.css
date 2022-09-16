@@ -501,16 +501,16 @@ ul.callbacks_tabs {
 	text-decoration: none;
 	height: 34px;
 	width: 34px;
-	background: url("../images/left.png") no-repeat 0px 0px;
+	background: url("../imagesBackend/left.png") no-repeat 0px 0px;
 }
 .callbacks_nav.prev {
 	left: auto;
-	background: url("../images/back.png") no-repeat 0px 0px;
+	background: url("../imagesBackend/back.png") no-repeat 0px 0px;
 	left: 18em;
 }
 .callbacks_nav.next {
 	left: auto;
-	background: url("../images/next.png") no-repeat 0px 0px;
+	background: url("../imagesBackend/next.png") no-repeat 0px 0px;
 	right: 18em;
 }
 .callbacks_nav:active {
