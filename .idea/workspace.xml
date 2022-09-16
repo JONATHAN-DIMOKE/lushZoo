@@ -2,92 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3824a17f-8360-4660-8023-13030799bfd0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cssBackend/bootstrap.min.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/control/seConnecter.controller.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/view/backend/css/bootstrap.min.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/css/font-awesome.css" afterPath="$PROJECT_DIR$/cssBackend/font-awesome.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/css/font.css" afterPath="$PROJECT_DIR$/cssBackend/font.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/css/jqvmap.css" afterPath="$PROJECT_DIR$/cssBackend/jqvmap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/css/lightbox.css" afterPath="$PROJECT_DIR$/cssBackend/lightbox.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/css/minimal.css" afterPath="$PROJECT_DIR$/cssBackend/minimal.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/css/monthly.css" afterPath="$PROJECT_DIR$/cssBackend/monthly.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/css/morris.css" afterPath="$PROJECT_DIR$/cssBackend/morris.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/css/style-responsive.css" afterPath="$PROJECT_DIR$/cssBackend/style-responsive.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/css/style.css" afterPath="$PROJECT_DIR$/cssBackend/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/fontsBackend/FontAwesome.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/fontsBackend/fontawesome-webfont.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/fontsBackend/fontawesome-webfont.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/fontsBackend/fontawesome-webfont.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/fontsBackend/fontawesome-webfont.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/fontsBackend/fontawesome-webfont.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/fontsBackend/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/fontsBackend/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/1.png" afterPath="$PROJECT_DIR$/imagesBackend/1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/2.png" afterPath="$PROJECT_DIR$/imagesBackend/2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/3.png" afterPath="$PROJECT_DIR$/imagesBackend/3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/bg.jpg" afterPath="$PROJECT_DIR$/imagesBackend/bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/close.png" afterPath="$PROJECT_DIR$/imagesBackend/close.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/g1.jpg" afterPath="$PROJECT_DIR$/imagesBackend/g1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/g2.jpg" afterPath="$PROJECT_DIR$/imagesBackend/g2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/g3.jpg" afterPath="$PROJECT_DIR$/imagesBackend/g3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/g4.jpg" afterPath="$PROJECT_DIR$/imagesBackend/g4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/g5.jpg" afterPath="$PROJECT_DIR$/imagesBackend/g5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/g6.jpg" afterPath="$PROJECT_DIR$/imagesBackend/g6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/g7.jpg" afterPath="$PROJECT_DIR$/imagesBackend/g7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/g8.jpg" afterPath="$PROJECT_DIR$/imagesBackend/g8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/g9.jpg" afterPath="$PROJECT_DIR$/imagesBackend/g9.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/mail.png" afterPath="$PROJECT_DIR$/imagesBackend/mail.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/minimal.png" afterPath="$PROJECT_DIR$/imagesBackend/minimal.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/nav-expand.png" afterPath="$PROJECT_DIR$/imagesBackend/nav-expand.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/next.png" afterPath="$PROJECT_DIR$/imagesBackend/next.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/pass.png" afterPath="$PROJECT_DIR$/imagesBackend/pass.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/prev.png" afterPath="$PROJECT_DIR$/imagesBackend/prev.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/images/search-icon.png" afterPath="$PROJECT_DIR$/imagesBackend/search-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/bootstrap.js" afterPath="$PROJECT_DIR$/jsBackend/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/jquery.dcjqaccordion.2.7.js" afterPath="$PROJECT_DIR$/jsBackend/jquery.dcjqaccordion.2.7.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/jquery.fileupload.js" afterPath="$PROJECT_DIR$/jsBackend/jquery.fileupload.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/jquery.min.js" afterPath="$PROJECT_DIR$/jsBackend/jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/jquery.nicescroll.js" afterPath="$PROJECT_DIR$/jsBackend/jquery.nicescroll.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/jquery.scrollTo.js" afterPath="$PROJECT_DIR$/jsBackend/jquery.scrollTo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/jquery.slimscroll.js" afterPath="$PROJECT_DIR$/jsBackend/jquery.slimscroll.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/jquery.vmap.asia.js" afterPath="$PROJECT_DIR$/jsBackend/jquery.vmap.asia.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/jquery.vmap.australia.js" afterPath="$PROJECT_DIR$/jsBackend/jquery.vmap.australia.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/jquery.vmap.europe.js" afterPath="$PROJECT_DIR$/jsBackend/jquery.vmap.europe.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/jquery.vmap.js" afterPath="$PROJECT_DIR$/jsBackend/jquery.vmap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/jquery.vmap.sampledata.js" afterPath="$PROJECT_DIR$/jsBackend/jquery.vmap.sampledata.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/jquery.vmap.world.js" afterPath="$PROJECT_DIR$/jsBackend/jquery.vmap.world.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/jquery2.0.3.min.js" afterPath="$PROJECT_DIR$/jsBackend/jquery2.0.3.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/lightbox-plus-jquery.min.js" afterPath="$PROJECT_DIR$/jsBackend/lightbox-plus-jquery.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/monthly.js" afterPath="$PROJECT_DIR$/jsBackend/monthly.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/morris.js" afterPath="$PROJECT_DIR$/jsBackend/morris.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/raphael-min.js" afterPath="$PROJECT_DIR$/jsBackend/raphael-min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/script.js" afterPath="$PROJECT_DIR$/jsBackend/script.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/view/backend/js/scripts.js" afterPath="$PROJECT_DIR$/jsBackend/scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control/utilisateur.control.php" afterPath="$PROJECT_DIR$/control/utilisateur.control.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/404.html" afterPath="$PROJECT_DIR$/view/backend/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/basic_table.html" afterPath="$PROJECT_DIR$/view/backend/basic_table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/chartjs.html" afterPath="$PROJECT_DIR$/view/backend/chartjs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/dropzone.html" afterPath="$PROJECT_DIR$/view/backend/dropzone.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/flot_chart.html" afterPath="$PROJECT_DIR$/view/backend/flot_chart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/fontawesome.html" afterPath="$PROJECT_DIR$/view/backend/fontawesome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/form_component.html" afterPath="$PROJECT_DIR$/view/backend/form_component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/form_validation.html" afterPath="$PROJECT_DIR$/view/backend/form_validation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/gallery.html" afterPath="$PROJECT_DIR$/view/backend/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/glyphicon.html" afterPath="$PROJECT_DIR$/view/backend/glyphicon.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/google_map.html" afterPath="$PROJECT_DIR$/view/backend/google_map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/grids.html" afterPath="$PROJECT_DIR$/view/backend/grids.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/index.html" afterPath="$PROJECT_DIR$/view/backend/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/login.html" afterPath="$PROJECT_DIR$/view/backend/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/mail.html" afterPath="$PROJECT_DIR$/view/backend/mail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/mail_compose.html" afterPath="$PROJECT_DIR$/view/backend/mail_compose.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/registration.html" afterPath="$PROJECT_DIR$/view/backend/registration.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/responsive_table.html" afterPath="$PROJECT_DIR$/view/backend/responsive_table.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/typography.html" afterPath="$PROJECT_DIR$/view/backend/typography.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/backend/vector_map.html" afterPath="$PROJECT_DIR$/view/backend/vector_map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/DAO/UtilisateurDAO.class.php" afterPath="$PROJECT_DIR$/model/DAO/UtilisateurDAO.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -114,18 +32,18 @@
       <file leaf-file-name="ConnexionDAO.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/DAO/ConnexionDAO.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="0">
               <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UtilisateurDAO.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UtilisateurDAO.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/DAO/UtilisateurDAO.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            <state relative-caret-position="367">
+              <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -134,7 +52,7 @@
       <file leaf-file-name="FactureDAO.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/DAO/FactureDAO.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="0">
               <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
               <folding />
             </state>
@@ -144,7 +62,7 @@
       <file leaf-file-name="Reservation.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/entities/Reservation.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4050">
+            <state relative-caret-position="0">
               <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
               <folding />
             </state>
@@ -154,7 +72,7 @@
       <file leaf-file-name="pageAcceuil.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/pageAcceuil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26379">
+            <state relative-caret-position="0">
               <caret line="977" column="75" lean-forward="false" selection-start-line="977" selection-start-column="71" selection-end-line="977" selection-end-column="75" />
               <folding />
             </state>
@@ -164,8 +82,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="240">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,18 +92,18 @@
       <file leaf-file-name="dispatcher.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dispatcher.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="0">
               <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utilisateur.control.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="utilisateur.control.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/control/utilisateur.control.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="373">
+              <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -194,7 +112,7 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="0">
               <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
               <folding />
             </state>
@@ -223,12 +141,12 @@
         <option value="$PROJECT_DIR$/model/entities/Utilisateur.class.php" />
         <option value="$PROJECT_DIR$/view/index.php" />
         <option value="$PROJECT_DIR$/control/seConnecter.controller.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/model/DAO/ConnexionDAO.class.php" />
-        <option value="$PROJECT_DIR$/model/DAO/UtilisateurDAO.class.php" />
         <option value="$PROJECT_DIR$/view/pageAcceuil.php" />
         <option value="$PROJECT_DIR$/dispatcher.php" />
         <option value="$PROJECT_DIR$/config/config.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/model/DAO/UtilisateurDAO.class.php" />
         <option value="$PROJECT_DIR$/control/utilisateur.control.php" />
       </list>
     </option>
@@ -261,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -358,7 +277,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -493,12 +411,13 @@
       <workItem from="1662654041261" duration="43000" />
       <workItem from="1662658295078" duration="1503000" />
       <workItem from="1662740447403" duration="5881000" />
-      <workItem from="1663260738268" duration="1610000" />
+      <workItem from="1663260738268" duration="2206000" />
+      <workItem from="1663343135735" duration="3574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43663000" />
+    <option name="totallyTimeSpent" value="47833000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -513,17 +432,17 @@
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24229075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20704846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -869,7 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/entities/Reservation.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4050">
+        <state relative-caret-position="0">
           <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
           <folding />
         </state>
@@ -877,23 +796,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/DAO/FactureDAO.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="0">
           <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/pageAcceuil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26379">
+        <state relative-caret-position="0">
           <caret line="977" column="75" lean-forward="false" selection-start-line="977" selection-start-column="71" selection-end-line="977" selection-end-column="75" />
           <folding />
         </state>
@@ -901,23 +812,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="0">
           <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/DAO/UtilisateurDAO.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/DAO/ConnexionDAO.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="0">
           <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
@@ -925,24 +828,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dispatcher.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="0">
           <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/control/seConnecter.controller.php">
+    <entry file="file://$PROJECT_DIR$/control/seConnecter.controller.php" />
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="13" selection-end-column="3" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/control/utilisateur.control.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="373">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/DAO/UtilisateurDAO.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="42" />
           <folding />
         </state>
       </provider>
