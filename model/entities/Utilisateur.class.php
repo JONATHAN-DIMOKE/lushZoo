@@ -12,6 +12,7 @@ class Utilisateur
     private $matricule;
     private $nomComplete;
     private $adresse;
+    private $genre;
     private $tel;
     private $email;
     private $typeUtilisateur;
@@ -21,11 +22,12 @@ class Utilisateur
     private $etat;
 
     /**
-     * UtilisateurDAO constructor.
+     * Utilisateur constructor.
      * @param $id
      * @param $matricule
      * @param $nomComplete
      * @param $adresse
+     * @param $genre
      * @param $tel
      * @param $email
      * @param $typeUtilisateur
@@ -34,12 +36,13 @@ class Utilisateur
      * @param $statut
      * @param $etat
      */
-    public function __construct($id, $matricule, $nomComplete, $adresse, $tel, $email, $typeUtilisateur, $username, $pwd, $statut, $etat)
+    public function __construct($id, $matricule, $nomComplete, $adresse, $genre, $tel, $email, $typeUtilisateur, $username, $pwd, $statut, $etat)
     {
         $this->id = $id;
         $this->matricule = $matricule;
         $this->nomComplete = $nomComplete;
         $this->adresse = $adresse;
+        $this->genre = $genre;
         $this->tel = $tel;
         $this->email = $email;
         $this->typeUtilisateur = $typeUtilisateur;
@@ -48,6 +51,23 @@ class Utilisateur
         $this->statut = $statut;
         $this->etat = $etat;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getGenre()
+    {
+        return $this->genre;
+    }
+
+    /**
+     * @param mixed $genre
+     */
+    public function setGenre($genre)
+    {
+        $this->genre = $genre;
+    }
+
 
     /**
      * @return mixed
