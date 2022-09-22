@@ -32,4 +32,23 @@ class UtilisateurDAO
             echo "Message = ".$ex->getMessage();
         }
     }
+
+    public static function createAccount(Utilisateur $utilisateur){
+      try{
+          $req = "CALL proc_createAccount(?, ?, ?, ?, ?, ?, ?)";
+          $req_prepare = ConnexionDAO::getConnection()->prepare($req);
+          $req_prepare->execute(array(
+              $utilisateur->getNomComplete(),
+              $utilisateur->getAdresse(),
+              $utilisateur->getGenre(),
+              $utilisateur->getTel(),
+              $utilisateur->getEmail(),
+              $utilisateur->getUsername(),
+              $utilisateur->getPwd()
+          ));
+          $req_prepare->closeCursor();
+      }catch (Exception $ex){
+          echo "Message = ".$ex->getMessage();
+      }
+    }
 }

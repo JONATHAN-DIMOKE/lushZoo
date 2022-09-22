@@ -8,6 +8,7 @@
 require_once "config/config.php";
 require_once "model/DAO/ConnexionDAO.class.php";
 require_once "model/DAO/UtilisateurDAO.class.php";
+require_once "model/entities/Utilisateur.class.php";
 
 function displayPageAccueil(){
     try{
@@ -31,13 +32,21 @@ function login($username, $pwd){
             echo "</pre>";
              **/
             if($resultBD['typeUtilisateur'] == "Admin"){
-                require "view/backend/index.html";
+                require "view/backend/index.php";
             }elseif ($resultBD['typeUtilisateur'] == "Client"){
-                echo "Je suis client";
+                require "view/backend/index.php";
             }
         }else{
             require "view/pageAcceuil.php";
         }
+    }catch (Exception $ex){
+        echo "Message ==> ".$ex->getMessage();
+    }
+}
+
+function createAccount($user){
+    try{
+        UtilisateurDAO::createAccount($user);
     }catch (Exception $ex){
         echo "Message ==> ".$ex->getMessage();
     }

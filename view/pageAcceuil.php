@@ -1017,13 +1017,35 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel1">Register</h5>
+                    <h5 class="modal-title" id="exampleModalLabel1">Create account</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form action="#" method="post" class="p-sm-3">
+                    <form action="dispatcher.php?action=createAccount" method="post" class="p-sm-3">
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Nom complet</label>
+                            <input type="text" class="form-control" placeholder="" name="nomComplet" id="recipient-rname"
+                                   required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Adresse</label>
+                            <input type="text" class="form-control" placeholder="" name="adresse" id="recipient-rname"
+                                   required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Genre</label>
+                            <select name="genre" id="" class="form-control">
+                                <option value="M">Homme</option>
+                                <option value="F">Femme</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Phone</label>
+                            <input type="text" class="form-control" placeholder="" name="tel" id="recipient-rname"
+                                   required="">
+                        </div>
                         <div class="form-group">
                             <label for="recipient-name" class="col-form-label">Username</label>
                             <input type="text" class="form-control" placeholder="" name=" name" id="recipient-rname"
@@ -1031,16 +1053,21 @@
                         </div>
                         <div class="form-group">
                             <label for="recipient-email" class="col-form-label">Email</label>
-                            <input type="email" class="form-control" placeholder="" name="Email" id="recipient-email"
+                            <input type="email" class="form-control" placeholder="" name="email" id="recipient-email"
                                 required="">
                         </div>
                         <div class="form-group">
-                            <label for="password1" class="col-form-label">Password</label>
-                            <input type="password" class="form-control" placeholder="" name="Password" id="password1"
+                            <label for="recipient-name" class="col-form-label">Username</label>
+                            <input type="text" class="form-control" placeholder="" name="username" id="recipient-rname"
+                                   required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="password1" class="col-form-label">Mot de passe</label>
+                            <input type="password" class="form-control" placeholder="" name="pwd" id="password1"
                                 required="">
                         </div>
                         <div class="form-group">
-                            <label for="password2" class="col-form-label">Confirm Password</label>
+                            <label for="password2" class="col-form-label">Confirmer mot de passe</label>
                             <input type="password" class="form-control" placeholder="" name="Confirm Password" id="password2"
                                 required="">
                         </div>
@@ -1052,7 +1079,7 @@
                             </div>
                         </div>
                         <div class="right-w3l">
-                            <input type="submit" class="form-control" value="Register">
+                            <input type="submit" class="form-control" value="Create now">
                         </div>
                     </form>
                 </div>
