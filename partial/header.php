@@ -191,7 +191,13 @@
         <!--search & user info start-->
         <ul class="nav pull-right top-menu">
             <li>
-                <input type="text" class="form-control search" placeholder=" Search">
+                <?php
+                if($_SESSION['user']['typeUtilisateur'] == "Client"){
+                    echo '<h4>Client connecté</h4>';
+                }else{
+                    echo '<h4>Admin connecté</h4>';
+                }
+                ?>
             </li>
             <!-- user login dropdown start-->
             <li class="dropdown">

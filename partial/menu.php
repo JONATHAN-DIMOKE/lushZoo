@@ -58,20 +58,16 @@ else{
                 <li>
                     <a class="active" href="index.html">
                         <i class="fa fa-dashboard"></i>
-                        <span>Dashboard</span>
+                        <span>Tableau de bord</span>
                     </a>
                 </li>
 
                 <li class="sub-menu">
-                    <a href="javascript:;">
+                    <a href="dispatcher.php?action=form_reservation">
                         <i class="fa fa-book"></i>
                         <span>Reserver visite</span>
                     </a>
-                    <ul class="sub">
-                        <li><a href="typography.html">Typography</a></li>
-                        <li><a href="glyphicon.html">glyphicon</a></li>
-                        <li><a href="grids.html">Grids</a></li>
-                    </ul>
+                   
                 </li>
                 <li>
                     <a href="fontawesome.html">
