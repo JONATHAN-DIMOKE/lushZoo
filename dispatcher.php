@@ -15,6 +15,8 @@ if(isset($_GET['action'])){
     }elseif ($_GET['action'] == "passerReservation"){
         $reservation = new Reservation(0, 0, $_SESSION['user']['id'], $_POST['dateReserv'], $_POST['heureDebut'], $_POST['heureFin'], $_POST['nbreVisiteur']);
         passerReservation($reservation);
+    }elseif ($_GET['action'] == "deconnection"){
+        deconnection($_SESSION['user']['id']);
     }
 }else{
     displayPageAccueil();

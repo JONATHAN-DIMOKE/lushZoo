@@ -24,7 +24,6 @@ function login($username, $pwd){
     try{
         $resultBD = UtilisateurDAO::seConnecter($username, $pwd);
         if ($resultBD['username']){
-            session_start();
             $_SESSION['user'] = $resultBD;
             /**
             echo "<pre>";
@@ -47,6 +46,16 @@ function login($username, $pwd){
 function createAccount($user){
     try{
         UtilisateurDAO::createAccount($user);
+    }catch (Exception $ex){
+        echo "Message ==> ".$ex->getMessage();
+    }
+}
+
+function deconnection($id){
+    try{
+        UtilisateurDAO::deconnection($id);
+        session_destroy();
+        require "view/pageAcceuil.php";
     }catch (Exception $ex){
         echo "Message ==> ".$ex->getMessage();
     }
