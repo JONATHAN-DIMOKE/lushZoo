@@ -51,4 +51,18 @@ class UtilisateurDAO
           echo "Message = ".$ex->getMessage();
       }
     }
+
+    public static function deconnection($id){
+        try{
+            $req = "CALL proc_deconnection(?)";
+            $req_prepare = ConnexionDAO::getConnexion()->prepare($req);
+            $req_prepare->execute(array(
+                $id
+            ));
+            $req_prepare->closeCursor();
+        }catch (Exception $ex){
+            echo "Message = ".$ex->getMessage();
+        }
+    }
+
 }
