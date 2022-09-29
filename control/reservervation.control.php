@@ -11,6 +11,11 @@ require_once "model/DAO/ReservationDAO.class.php";
 
 function form_reservation(){
     try{
+        $listReserv = ReservationDAO::listerToutesReservation($_SESSION['user']['id']);
+        /*echo "<pre>";
+            print_r($listReserv);die();
+        echo "</pre>";*/
+
         require "view/backend/reserver.view.php";
     }catch (Exception $ex){
         error($ex);

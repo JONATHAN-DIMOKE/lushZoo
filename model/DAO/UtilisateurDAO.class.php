@@ -36,7 +36,7 @@ class UtilisateurDAO
     public static function createAccount(Utilisateur $utilisateur){
       try{
           $req = "CALL proc_createAccount(?, ?, ?, ?, ?, ?, ?)";
-          $req_prepare = ConnexionDAO::getConnection()->prepare($req);
+          $req_prepare = ConnexionDAO::getConnexion()->prepare($req);
           $req_prepare->execute(array(
               $utilisateur->getNomComplete(),
               $utilisateur->getAdresse(),
