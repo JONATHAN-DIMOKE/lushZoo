@@ -2,6 +2,7 @@
 require "control/utilisateur.control.php";
 require "control/reservervation.control.php";
 require "model/entities/Reservation.class.php";
+require "control/facture.control.php";
 require "partial/error.php";
 session_start();
 if(isset($_GET['action'])){
@@ -17,6 +18,8 @@ if(isset($_GET['action'])){
         passerReservation($reservation);
     }elseif ($_GET['action'] == "deconnection"){
         deconnection($_SESSION['user']['id']);
+    }elseif ($_GET['action'] == "payerFact"){
+        payerFacture($_GET['idReserv']);
     }
 }else{
     displayPageAccueil();

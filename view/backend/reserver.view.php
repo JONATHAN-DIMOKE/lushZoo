@@ -94,8 +94,54 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </div>
                         </section>
                     </div>
+
+
+                </div>
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                Lister reservations
+                <span class="tools pull-right">
+                                <a class="fa fa-chevron-down" href="javascript:;"></a>
+                                <a class="fa fa-cog" href="javascript:;"></a>
+                                <a class="fa fa-times" href="javascript:;"></a>
+                             </span>
+            </header>
+            <div class="panel-body">
+                <div class=" form">
+                    <table class="table table-responsive" id="myTable">
+                        <strong><caption style="text-align: center"></caption></strong>
+                        <thead>
+                        <tr>
+                            <th scope="col" id="nomComplet">Date reserv</th>
+                            <th scope="col" id="nomComplet">H. debut</th>
+                            <th scope="col" id="nomComplet">H. fin</th>
+                            <th scope="col" id="nomComplet">Nbre visiteur</th>
+                            <th scope="col" id="nomComplet"></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <?php
+                        foreach ($listReserv as $reservation){
+                            echo '<tr>';
+                            echo '<td>'.$reservation['dateReserv'].'</td>';
+                            echo '<td>'.$reservation['heureDebut'].'</td>';
+                            echo '<td>'.$reservation['heureFin'].'</td>';
+                            echo '<td>'.$reservation['nbreVisiteur'].'</td>';
+                            echo '<td><a href="dispatcher.php?action=payerFact&idReserv='.$reservation['id'].'" class="btn btn-info">Payer facture</a></td>';
+                            echo '</tr>';
+                        }
+                        ?>
+                        </tbody>
+
+                    </table>
                 </div>
 
+            </div>
+        </section>
+    </div>
+</div>
                 <!-- page end-->
             </div>
         </section>
@@ -115,5 +161,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script language="javascript" type="textjsBacekjsBackendpt" src="jsBackend/flot-chart/excanvas.min.js"></script>
 <![endif]-->
 <script src="jsBackend/jquery.scrollTo.js"></script>
+
+<script src="jsBackend/jquery.dataTables.min.js"></script>
+<script src="jsBackend/dataTables.bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('#myTable').dataTable();
+    })
+</script>
 </body>
 </html>

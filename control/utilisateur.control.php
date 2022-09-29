@@ -46,6 +46,7 @@ function login($username, $pwd){
 function createAccount($user){
     try{
         UtilisateurDAO::createAccount($user);
+        require "view/pageAcceuil.php";
     }catch (Exception $ex){
         echo "Message ==> ".$ex->getMessage();
     }
