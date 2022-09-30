@@ -3,6 +3,7 @@ require "control/utilisateur.control.php";
 require "control/reservervation.control.php";
 require "model/entities/Reservation.class.php";
 require "control/facture.control.php";
+require "control/planifierReservation.control.php";
 require "partial/error.php";
 session_start();
 if(isset($_GET['action'])){
@@ -20,6 +21,10 @@ if(isset($_GET['action'])){
         deconnection($_SESSION['user']['id']);
     }elseif ($_GET['action'] == "payerFact"){
         payerFacture($_GET['idReserv']);
+    }elseif ($_GET['action'] == "form_planifier_reservation"){
+        form_planifier_reservation();
+    }elseif ($_GET['action'] == "planifier_reservation"){
+        planifier_reservation($_POST['idReserv'], $_POST['heureDebut'], $_POST['heureFin']);
     }
 }else{
     displayPageAccueil();
