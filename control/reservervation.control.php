@@ -25,7 +25,7 @@ function form_reservation(){
 function passerReservation($reservation){
     try{
         ReservationDAO::reserverVisite($reservation);
-        require "view/backend/reserver.view.php";
+        form_reservation(); //appel du controlleur form_reservation()
     }catch (Exception $ex){
         error($ex);
     }
