@@ -8,16 +8,17 @@
  */
 class ReservationDAO
 {
-    public static function reserverVisite(Reservation $reservation){
+    public static function reserverVisite(Reservation $reservation, $idHoraire){
         try{
-            $req = "CALL proc_reservation(?, ?, ?, ?, ?)";
+            $req = "CALL proc_reservation(?, ?, ?, ?, ?, ?)";
             $req_prepare = ConnexionDAO::getConnexion()->prepare($req);
             $req_prepare->execute(array(
                 $reservation->getIdClient(),
                 $reservation->getDateReserv(),
                 $reservation->getHeureDebut(),
                 $reservation->getHeureFin(),
-                $reservation->getNbreVisiteur()
+                $reservation->getNbreVisiteur(),
+                $idHoraire
             ));
             $req_prepare->closeCursor();
         }catch (Exception $ex){

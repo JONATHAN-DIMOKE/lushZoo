@@ -4,6 +4,7 @@ require "control/reservervation.control.php";
 require "model/entities/Reservation.class.php";
 require "control/facture.control.php";
 require "control/planifierReservation.control.php";
+require "control/horaireVisites.control.php";
 require "partial/error.php";
 session_start();
 if(isset($_GET['action'])){
@@ -16,7 +17,7 @@ if(isset($_GET['action'])){
         form_reservation();
     }elseif ($_GET['action'] == "passerReservation"){
         $reservation = new Reservation(0, 0, $_SESSION['user']['id'], $_POST['dateReserv'], $_POST['heureDebut'], $_POST['heureFin'], $_POST['nbreVisiteur']);
-        passerReservation($reservation);
+        passerReservation($reservation, $_POST['idHoraire']);
     }elseif ($_GET['action'] == "deconnection"){
         deconnection($_SESSION['user']['id']);
     }elseif ($_GET['action'] == "payerFact"){
@@ -25,6 +26,10 @@ if(isset($_GET['action'])){
         form_planifier_reservation();
     }elseif ($_GET['action'] == "planifier_reservation"){
         planifier_reservation($_POST['idReserv'], $_POST['heureDebut'], $_POST['heureFin']);
+    }elseif ($_GET['action'] == "horaireVisite"){
+        list_horaireVisite();
+    }elseif ($_GET['action'] == "pagePrincipale"){
+        pagePrincipale();
     }
 }else{
     displayPageAccueil();

@@ -52,6 +52,15 @@ function createAccount($user){
     }
 }
 
+function pagePrincipale(){
+    try{
+        require "view/backend/index.php";
+    }catch (Exception $ex){
+        echo "Message ==> ".$ex->getMessage();
+    }
+}
+
+
 function deconnection($id){
     try{
         UtilisateurDAO::deconnection($id);

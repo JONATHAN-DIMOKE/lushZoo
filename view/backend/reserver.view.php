@@ -54,6 +54,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <div class="panel-body">
                                 <div class=" form">
                                     <form class="cmxform form-horizontal " id="commentForm" method="post" action="dispatcher.php?action=passerReservation" novalidate="novalidate">
+                                        <input type="hidden" class="form-control" id="idHoraire" name="idHoraire" value="<?= $_GET['idHoraire']?>" required="">
                                         <div class="form-group ">
                                             <label for="cname" class="control-label col-lg-3">Date reservation</label>
                                             <div class="col-lg-6">
@@ -65,13 +66,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                             <div class="form-group col-md-4">
                                                 <label for="cemail" class="control-label col-lg-6">Heure debut</label>
                                                 <div class="col-lg-6">
-                                                    <input class="form-control " id="heureDebut" type="time" name="heureDebut" required="">
+                                                    <input class="form-control" value="<?=$_GET['hDebut']?>" readonly id="heureDebut" type="text" name="heureDebut" required="">
                                                 </div>
                                             </div>
                                             <div class="form-group col-md-4">
                                                 <label for="curl" class="control-label col-lg-6">Heure fin</label>
                                                 <div class="col-lg-6">
-                                                    <input class="form-control " id="heureFin" type="time" name="heureFin">
+                                                    <input class="form-control " value="<?=$_GET['hFin']?>" id="heureFin" readonly type="text" name="heureFin">
                                                 </div>
                                             </div>
                                             <div class="col-md-2"></div>
