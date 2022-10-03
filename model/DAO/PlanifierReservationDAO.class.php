@@ -26,7 +26,7 @@ class PlanifierReservationDAO
 
     public static function listerToutesReservation(){
         try{
-            $req = "CALL proc_getAllReservations()";
+            $req = "CALL proc_getAllResertion()";
             $req_prepare = ConnexionDAO::getConnexion()->prepare($req);
             $req_prepare->execute();
             $resultBD = $req_prepare->fetchAll(PDO::FETCH_ASSOC);
